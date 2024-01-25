@@ -1,0 +1,46 @@
+body {
+    width: 400px; /* 幅を設定 */
+    height: 600px; /* 高さを設定 */
+    margin: 0;
+    padding: 0;
+}
+#netflixList {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#netflixList div {
+    background-color: #86dff3; /* ネットフリックスの赤 */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+#netflixList div a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* マウスオーバー時のエフェクト */
+#netflixList div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* レスポンシブデザイン（小さい画面用） */
+@media (max-width: 600px) {
+    #netflixList {
+        grid-template-columns: 1fr;
+    }
+}
+#netflixList {
+    margin: 20px; /* 上下左右に20pxのマージン */
+}
+
+
