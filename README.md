@@ -35,6 +35,6 @@
 
   <p>5.GitHubにリストを格納するテキストファイルを置き、自分のものに置き換えてください。</p>
   
-  [参考](https://github.com/k4na2525/NetflixList)
+  [テキストファイル参考](https://github.com/k4na2525/NetflixList)
 
   <img alt="パッケージ読み込み" src="imgs\JS-1.png" />
