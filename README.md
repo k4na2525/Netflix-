@@ -19,17 +19,21 @@
 <h2 id="process">手順</h2>
   <p>1.先ほどダウンロードしたファイルを解凍してください。</p>
     
-  <p>2.こちらを検索バーに張り付けて拡張機能の設定画面を表示してください。</p>
+  <p>2.こちらを検索バーに張り付けて「デベロッパーモード」を有効にしてください。</p>
     
   ```
     chrome://extensions/
   ```
 
-  <img alt="デドロッパーモード" src="imgs\chrome-1.png" />
+  <img alt="デベロッパーモード" src="imgs\chrome-1.png" />
 
   <p>3.「パッケージ化されていない拡張機能を読み込む」から先ほど解答したフォルダーを選択してください。</p>
-
   <img alt="パッケージ読み込み" src="imgs\chrome-2.png" />
 
   <p>4.拡張機能が表示されたら成功です。</p>
   <img alt="パッケージ読み込み" src="imgs\chrome-3.png" />
+
+  <p>5.GitHubにリストを格納するテキストファイルを置き、自分のものに置き換えてください。</p>
+  [参考](https://github.com/k4na2525/NetflixList)
+
+  <img alt="パッケージ読み込み" src="imgs\JS-1.png" />
